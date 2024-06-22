@@ -120,4 +120,107 @@ Mô hình thác nước được chia thành 5 giai đoạn:
 5.	Chuyển giao và bảo trì (Operation and maintenance)
     
 Hình ảnh minh họa mô hình thác nước:
+
 ![image](https://github.com/20020330/img_caption/assets/85932447/f80760eb-64ea-46a7-99cf-324ac72e3743)
+
+1.6.3. Chi tiết các giai đoạn.
+
+1.6.3.1. Phân tích yêu cầu (Requirements definition).
+
+Người dùng thường chỉ đưa ra những ý tưởng, nhiều khi rất mơ hồ về phần mềm mà họ mong muốn xây dựng. Chính vì vậy mục đích của giai đoạn này là để hiểu một cách chính xác các yêu cầu của khách hàng. Vậy nên các lập trình viên sẽ phải thu thập tất cả các yêu cầu cần thiết từ khách hàng, sau đó sẽ phân tích để hiểu đúng những yêu cầu về phần mềm. Yêu cầu của phần mềm là tất cả các yêu cầu về phần mềm do người dùng nêu ra bao gồm các chức năng của phần mềm, hiệu năng của phần mềm, giao diện của phần mềm và một số các yêu cầu khác.
+
+1.6.3.2. Thiết kế hệ thống và phần mềm (System and software design).
+
+Giai đoạn này nhằm mục đích chuyển đổi các yêu cầu thu thập được từ khách hàng thành các bản vẽ thiết kế chi tiết cũng như kiến trúc phần mềm tổng thể của hệ thống.
+
+1.6.3.3. Hiện thực và kiểm tra modules (Implementation and unit testing).
+
+Tại đây, các bản thiết kế được thực hiện. Từ đó, các lập trình viên sẽ tạo ra chương trình bằng ngôn ngữ lập trình. Các đoạn code sẽ được kiểm tra kỹ lưỡng và sửa đổi nếu có lỗi phát sinh. Các đoạn code nhỏ được thử nghiệm một cách cô lập ban đầu. 
+
+1.6.3.4. Tích hợp và kiểm tra hệ thống (Integration and system testing).
+
+Các lập trình viên sẽ tích hợp code và kiểm tra sự tương tác của toàn bộ hệ thống để xem các đơn vị có vận hành trơn tru hay không, nếu có trục trặc thì sẽ tiến hành sửa lỗi. 
+
+Giai đoạn này rất quan trọng vì chất lượng của phần mềm có tốt hay không là do chất lượng của quá trình kiểm tra. Phần mềm tốt sẽ dẫn đến khách hàng hài lòng.
+
+1.6.3.5. Chuyển giao và bảo trì (Operation and maintenance).
+
+Ở phần cuối, sau khi chắc chắn đã sửa hết lỗi và vận hành trơn tru, các lập trình viên sẽ tiến hành chuyển giao cho khách hàng để đưa vào sử dụng, chạy hệ thống trong môi trường thực tế.						
+Công đoạn bảo trì sửa chữa - nâng cấp sẽ được thực hiện nếu có lỗi phát sinh trong quá trình sử dụng hoặc nếu muốn nâng cao năng suất hệ thống thì các lập trình viên sẽ dựa trên yêu cầu của khách hàng để tiến hành bảo trì nâng cấp, cải tiến phần mềm.
+
+1.6.4. Sự phụ thuộc của các giai đoạn.
+
+Trong mô hình này, hoạt động phát triển phần mềm được chia thành các giai đoạn khác nhau và ở mỗi giai đoạn sẽ bao gồm hàng loạt các nhiệm vụ và có các mục tiêu khác nhau.
+
+Giai đoạn trước bắt buộc phải được hoàn thành trước khi bắt đầu giai đoạn tiếp theo, do đó sẽ không có sự chồng chéo nào trong mô hình thác nước.
+
+1.6.5. Ưu điểm và nhược điểm.
+
+1.6.5.1. Ưu điểm.
+
+•	Đây là mô hình đơn giản, dễ áp dụng, quy trình rõ ràng theo từng bước.
+
+•	Dễ quản lý và bảo trì bởi cách tiếp cận tuyến tính và cố định theo từng bước. 
+
+•	Các tiêu chí đầu vào và đầu ra được xác định rõ ràng nên dễ dàng trong công tác kiểm tra chất lượng.
+
+•	Hoạt động hiệu quả trong các dự án nhỏ, với các yêu cầu rõ ràng.
+
+•	Có nhiều tài liệu cung cấp cho khách hàng.
+
+1.6.5.2. Nhược điểm.
+
+•	Không phải mô hình lý tưởng cho các dự án lớn và dài ngày.
+
+•	Không hiệu quả đối với những dự án đối mặt với các yêu cầu không rõ ràng từ đầu.
+
+•	Khó thích ứng với thay đổi bao gồm yêu cầu, kế hoạch, phạm vi dự án…
+
+•	Độ trực quan thấp và giá trị chuyển giao chậm khi đến cuối chu trình người dùng mới nhìn thấy và sử dụng sản phẩm.
+
+1.6.6. Lý do lựa chọn mô hình.
+
+Mô hình thác nước phù hợp với quy mô kinh doanh nhỏ. Cho nên với đồ án lần này, nhóm chúng em quyết định chọn mô hình thác nước để triển khai. Lí do là vì cửa hàng mà chúng em thực hiện phần mềm có quy mô kinh doanh không quá lớn, chỉ yêu cầu các chức năng quan trọng đối với các nhân viên trong cửa hàng.
+
+1.7. Mô tả nghiệp vụ các công cụ, công nghệ sử dụng trong đồ án: Apache NetBeans IDE 12.6, SQL Server, Github, Draw.io, Photoshop CS6, Trello,…
+
+1.7.1. Apache NetBeans IDE 12.6.
+
+NetBeans IDE là một công cụ hỗ trợ lập trình viết mã code, được sử dụng chủ yếu cho các lập trình viên phát triển Java. Đây là môi trường phát triển tích hợp và cực kỳ cần thiết cho các lập trình viên, công cụ này có thể hoạt động tốt với rất nhiều nền tảng hệ điều hành khác nhau như Linux, Windows, MacOS,... là một mã nguồn mở cung cấp các tính năng cần thiết nhất nhằm tạo ra các ứng dụng web, thiết bị di động, desktop.
+
+NetBeans IDE có các ưu điểm giao diện trực quan, dễ thao tác và là một môi trường rất thích hợp cho việc lập trình xây dựng giao diện đồ họa, phần mềm máy tính. Chính vì thế, nhóm chúng em chọn NetBeans IDE để làm công cụ lập trình giao diện và các thao tác xử lý dữ liệu cho đồ án “Xây dựng phần mềm quản lý quán cà phê”.
+
+1.7.2. Github.
+
+Github là một dịch vụ nổi tiếng cung cấp kho lưu trữ mã nguồn Git cho các dự án phần mềm. Github có đầy đủ những tính năng của Git, ngoài ra nó còn bổ sung những tính năng về social để các developer tương tác với nhau trong dự án.
+
+Github là công cụ giúp quản lý source code tổ chức theo dạng dữ liệu phân tán. Giúp đồng bộ source code của team lên 1 server. Hỗ trợ các thao tác kiểm tra source code trong quá trình làm việc.
+
+Github là công cụ giúp nhóm em quản lý source code và kết nối tương tác với nhau trong lúc thực hiện đồ án.
+
+1.7.3. Draw.io.
+
+Draw.io là một chương trình có nhiều công cụ cho phép người sử dụng tạo ra cơ quan đại diện về cấu trúc và đồ họa của mô hình kinh doanh.
+
+Draw.io được nhóm sử dụng để hỗ trợ vẽ các sơ đồ BFD, DFD, class, usecase, sequence, workflow,...
+
+1.7.4. Photoshop CS6.
+
+Photoshop CS6 là phần mềm chỉnh sửa ảnh chuyên nghiệp. Với phần mềm này, người dùng có thể chỉnh sửa, biên tập ảnh, video một cách dễ dàng tùy theo ý muốn và sở thích của mình.
+
+Photoshop CS6 được nhóm sử dụng để thiết kế các giao diện phần mềm cho đồ án.
+
+1.7.5	SQL Server :
+
+SQL Server là một máy chủ cơ sở dữ liệu, có chức năng chính là lưu trữ và truy xuất dữ liệu theo yêu cầu của các ứng dụng phần mềm.
+
+SQL Server được nhóm sử dụng để xây dựng các bảng lưu trữ dữ liệu để phục vụ cho các chức năng cần thao tác và trích xuất dữ liệu của phần mềm.
+
+1.7.6	Trello :
+
+Trello là một phần mềm giúp đội nhóm dễ dàng quản lý và theo dõi tiến trình công việc, dự án. Với các thẻ ghim có thể là nhiệm vụ, ghi chú, dự án, file chia sẻ giúp cho làm việc nhóm tốt và hiệu quả hơn. 
+
+Trello được nhóm sử dụng để quản lý, theo dõi và phân chia nhiệm vụ cho nhau trong suốt quá trình thực hiện đồ án.
+
+1.8. Activity Bar Chart.
+
