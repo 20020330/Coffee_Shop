@@ -224,3 +224,5 @@ Trello được nhóm sử dụng để quản lý, theo dõi và phân chia nhi
 
 1.8. Activity Bar Chart.
 
+![image](https://github.com/20020330/img_caption/assets/85932447/c75df250-57ae-40ec-abde-3e6918dfcef2)
+
