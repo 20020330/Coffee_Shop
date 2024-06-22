@@ -120,4 +120,4 @@ Mô hình thác nước được chia thành 5 giai đoạn:
 5.	Chuyển giao và bảo trì (Operation and maintenance)
     
 Hình ảnh minh họa mô hình thác nước:
-
+![image](https://github.com/20020330/img_caption/assets/85932447/f80760eb-64ea-46a7-99cf-324ac72e3743)
