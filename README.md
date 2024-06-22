@@ -98,12 +98,6 @@ Phần mềm hoạt động trên mạng cục bộ (LAN).
 
 Phần mềm được xây dựng với những chức năng cơ bản của công việc quản lý và bán hàng, cùng với giao diện đơn giản và thân thiện nên người sử dụng hệ thống có thể dễ dàng thao tác và sử dụng một cách thành thạo.
 
-1.5.3. Ý nghĩa với cá nhân sinh viên.
-
-Đề tài này vừa là báo cáo hoàn thành môn học, vừa là cơ hội cho mỗi thành viên trong nhóm được vận dụng các kiến thức lý thuyết đã và đang học vào thực hành.
-
-Qua đề tài này, cá nhân mỗi thành viên sẽ có thêm nhiều kinh nghiệm và nắm chắc các kiến thức mới cũng như các kiến thức đã học.
-
 1.6. Tổng quan về mô hình thác nước (Waterfall model) và phương pháp thực hiện đề tài.
 
 1.6.1 Khái niệm.
@@ -116,14 +110,14 @@ Trước đây mô hình thác nước được sử dụng rất phổ biến n
 Mô hình thác nước được chia thành 5 giai đoạn:
 
 1.	Phân tích yêu cầu (Requirements definition)
-2.	
-3.	Thiết kế hệ thống và phần mềm (System and software design)
-4.	
-5.	Hiện thực và kiểm tra modules (Implementation and unit testing)
-6.	
-7.	Tích hợp và kiểm tra hệ thống (Integration and system testing)
-8.	
-9.	Chuyển giao và bảo trì (Operation and maintenance)
+	
+2.	Thiết kế hệ thống và phần mềm (System and software design)
+   
+3.	Hiện thực và kiểm tra modules (Implementation and unit testing)
+
+4.	Tích hợp và kiểm tra hệ thống (Integration and system testing)
+	
+5.	Chuyển giao và bảo trì (Operation and maintenance)
     
 Hình ảnh minh họa mô hình thác nước:
 
